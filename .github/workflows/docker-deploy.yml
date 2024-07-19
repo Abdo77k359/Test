@@ -17,8 +17,8 @@ jobs:
       
       - name: Build and push Docker image
         run: |
-          docker build -t yourdockerhubusername/yourimagename:latest .
-          docker push yourdockerhubusername/yourimagename:latest
+          docker build -t abdo77k/getting-started:latest .
+          docker push abdo77k/getting-started:latest
 
   deploy-to-vm:
     runs-on: self-hosted  # Replace with your GitHub Actions runner configuration
